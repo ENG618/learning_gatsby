@@ -4,6 +4,10 @@ node_js:
 
 cache: yarn
 
+before_script:
+ - yarn add gatsby-cli
+ - yarn
+
 script:
   - yarn test
 
